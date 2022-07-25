@@ -75,3 +75,16 @@ export function esNumPar(n:number){
     }
 }
 //esPar(1005);
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+let color = ["celeste", "magenta", "amarillo","negro","naranja","verde","burdeos"];
+function estarEnArcoiris(a){
+    for (let i = 0; i < a.length; i++) {
+        if (a[i]=="rojo" || a[i]=="naranja" || a[i]=="amarillo" || a[i]=="verde" || a[i]=="celeste" || a[i]=="azul" || a[i]=="violeta"){
+            console.log(`El color ${a[i]} está en el arcoiris.`);
+        }        
+    }
+}
+//estarEnArcoiris(color);
